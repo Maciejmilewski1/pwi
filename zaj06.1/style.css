@@ -1,0 +1,67 @@
+header{
+    background-color: rgb(240, 112, 8);
+    font-size: 30px;
+    text-align: center;
+    
+}
+footer{
+    background-color: blue;
+    font-size: 12px;
+    text-align: right;
+}
+#menu{
+    background-color: silver;
+}
+.artykul{
+  
+    background-color: blueviolet;
+    flex: 2;
+    border: 2px outset;
+    text-align: center;
+    font-size: 18px;
+}
+.side{
+    background-color: black;
+    flex: 1;
+    color: aliceblue;
+    border: 1px double white;
+}
+section{
+    font-size: 15px;
+    text-align: left;
+}
+main{
+    display: flex;
+}
+p, body {
+    margin: 0;
+    padding: 0;
+}
+ul{
+
+margin: 0;
+padding: 0;
+list-style-type: 0;
+
+
+}
+li{
+   display: inline-block;
+    width: 30%;
+    border: 3px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+   
+}
+a{
+    display: inline-block;
+}
+a:hover{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    border-radius: 7px;
+}
+
+
